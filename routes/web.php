@@ -15,4 +15,4 @@ use App\Http\Controllers\CasherController;
 
 Route::get('/',[CasherController::class,'index']);
 Route::get('/test',[CasherController::class,'taswer']);
-Route::post('/test',[CasherController::class,'taswer1']);
+Route::get('/recipte',[CasherController::class,'recipte']);

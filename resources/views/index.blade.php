@@ -84,7 +84,7 @@
 						<!-- Single Product -->
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-4" class="single-product">
-										<div class="part-1" onclick="window.location='/test4';">
+										<div class="part-1" onclick="window.location='/recipte';">
 												<span class="new">new</span>
 												<ul>
 														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
@@ -94,7 +94,7 @@
 												</ul>
 										</div>
 										<div class="part-2">
-												<h3 class="product-title">Here Product Title</h3>
+												<h3 class="product-title">recipte</h3>
 												<h4 class="product-price">$49.99</h4>
 										</div>
 								</div>
