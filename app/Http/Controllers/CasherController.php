@@ -19,7 +19,7 @@ class CasherController extends Controller
     return view('taswer');
   }
   public function recipte(){
-    $recipte =DB::select('SELECT * FROM receipt');
+    $recipte =DB::select('SELECT * FROM copying');
     return view('recipte',['reciptes'=>$recipte]);
   }
   public function taswer1(Request $request){

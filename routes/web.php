@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CasherController;
+use App\Http\Controllers\CopyController;
+use App\Http\Controllers\PrintingController;
+use App\Http\Controllers\ReceiptsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +18,4 @@ use App\Http\Controllers\CasherController;
 
 Route::get('/',[CasherController::class,'index']);
 Route::get('/test',[CasherController::class,'taswer']);
-Route::get('/recipte',[CasherController::class,'recipte']);
+Route::post('/recipte',[ReceiptsController::class, 'insertReceipt']);
