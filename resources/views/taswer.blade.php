@@ -19,14 +19,14 @@
 								</div>
 						</div>
 				</div>
-        <form  action="/test" method="post">
+        <form action="/recipte"  method="post">
 								@csrf
 				<div class="row">
 						<!-- Single Product -->
 						<div class="col-md-6 col-lg-4 col-xl-3">
 
 										<div class="part-2">
-												<li><h4 class="product-old-price">number of copies</h4><input type="text" id="copy" name="copy"></li>
+												<li><h4 class="product-old-price">number of copies</h4><input type="text" id="copy" name="copies_number"></li>
 										</div>
 
 						</div>
@@ -37,7 +37,7 @@
 						<div class="col-md-6 col-lg-4 col-xl-3">
 
 										<div class="part-2">
-												<li><h4 class="product-old-price">number of print</h4><input type="text" id="print" name="print"></li>
+												<li><h4 class="product-old-price">number of print</h4><input type="text" id="print" name="printing_number"></li>
 										</div>
 
 					  </div>
